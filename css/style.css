@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto Slab', serif;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+}
+header {
+  background-color: #ecddca;
+  padding: 30px 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  margin: 0 auto;
+}
+nav li {
+  display: inline-block;
+  background-color: #e4dbca;
+  margin: 0 10px;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+nav li:hover {
+  background-color: #b7a583;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #6c7373;
+  padding-bottom: 5px;
+}
+.main {
+  max-width: 1200px;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  height: 750px;
+  background: url(../images/fon1.jpg) 100% 100% no-repeat;
+  background-size: cover;
+}
+.first .section_container {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.slogan {
+  font-size: 40px;
+  font-weight: bold;
+}
+.text {
+  color: #472c3c;
+}
+.slogan span {
+  font-weight: lighter;
+  font-size: 25px;
+}
+.phone_number {
+  font-size: 20px;
+  font-weight: bold;
+}
+.order_call {
+  color: #f7941d;
+  cursor: pointer;
+}
+.second .section_container {
+  padding: 60px 0;
+}
+.second .section_container h2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.second .photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+  height: 730px;
+  background: url(../images/fon2.jpg);
+  background-size: cover;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
+.third .section_container {
+  padding: 7em 0;
+  margin-left: 10em;
+}
+.third .title {
+  font-weight: 200;
+  margin-bottom: 1em;
+}
+.advantage_item {
+  width: 320px;
+  padding-bottom: 1em;
+}
+.advantage_item img {
+  float: left;
+  padding-right: 10px;
+}
+.advantage_title {
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+.advantage_text {
+  margin-left: 40px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .slogan {
+    margin-left: 1em;
+  }
+  .phone {
+    margin-right: 3em;
+  }
+  .third {
+    background-position: 25% 0%;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .slogan {
+    margin-left: 1em;
+  }
+  .phone {
+    margin-right: 3em;
+  }
+  .third {
+    background-position: 25% 0%;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 481px) and (max-width: 991px) {
+  .slogan {
+    margin-left: 1em;
+  }
+  .phone {
+    margin-right: 3em;
+  }
+  .second .photos {
+    flex-direction: column;
+  }
+  .third {
+    background-position: 25% 0%;
+  }
+  .third .title {
+    margin-bottom: 3em;
+    text-align: center;
+  }
+  .third .section_container {
+    padding: 3em 0;
+  }
+  .third .section_container {
+    margin-left: 1.5em;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .slogan {
+    margin-left: 1em;
+  }
+  .phone {
+    margin-right: 3em;
+  }
+  .second .photos {
+    flex-direction: column;
+  }
+  .third {
+    background-position: 25% 0%;
+  }
+  .third .title {
+    margin-bottom: 3em;
+  }
+  .third .section_container {
+    padding: 7em 0;
+    text-align: center;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+}
