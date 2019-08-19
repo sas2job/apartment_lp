@@ -20,6 +20,7 @@
           <li><a href="#plan">Планировка</a></li>
           <li><a href="#advantages">Преимущества</a></li>
           <li><a href="#howbuy">Как купить</a></li>
+          <li><a href="#order">Оставить заявку</a></li>
         </ul>
       </nav>
     </header>
@@ -29,7 +30,7 @@
           <div class="slogan text" id="intro">КВАРТИРА</br><span>БЕЗ ПОСРЕДНИКА</span></div>
           <div class="phone text">
             <div class="phone_number">8 800 000 00-00</div>
-            <div class="order_call">Заказать звонок</div>
+            <div class="order_call"><a href="#order">Заказать звонок</a></div>
           </div>
         </div>
       </section>
@@ -74,7 +75,8 @@
               <img src="./images/step1.png" alt="">
               <div class="round"></div>
               <div class="howbuy_step_title">шаг 1</div>
-              <div class="howbuy_step_content">Оставьте заявку или позвоните по телефону <a href="tel:8 800 000-00-00">8&nbsp800&nbsp000-00-00</a></div>
+              <div class="howbuy_step_content">Оставьте заявку или позвоните по телефону <a
+                  href="tel:8 800 000-00-00">8&nbsp800&nbsp000-00-00</a></div>
             </div>
             <div class="howbuy_step">
               <img src="./images/step2.png" alt="">
@@ -95,9 +97,32 @@
               <div class="howbuy_step_content">Переезжаете и наслаждаетесь уютом в новой квартире</div>
             </div>
           </div>
-
         </div>
+      </section>
+      <section class="fifth">
+        <div class="section_container" id="order">
+          <h2 class="title">Оставьте заявку на просмотр прямо сейчас!</h2>
+          <form class="contact-form" id="contact-form_1" method="POST">
+            <div class="contact-form__input-wrapper">
+              <input name="name" type="text" class="contact-form__input contact-form__input_name"
+                placeholder="Ваше имя*">
+              <div class="contact-form__error contact-form__error_name"></div>
+            </div>
 
+            <div class="contact-form__input-wrapper">
+              <input name="tel" type="tel" class="contact-form__input contact-form__input_tel"
+                placeholder="Ваш телефон*">
+              <div class="contact-form__error contact-form__error_tel"></div>
+            </div>
+
+            <div class="contact-form__input-wrapper">
+              <input name="email" type="email" class="contact-form__input contact-form__input_email"
+                placeholder="Ваш email*">
+              <div class="contact-form__error contact-form__error_email"></div>
+            </div>
+
+            <button class="contact-form__button" type="submit">записаться на просмотр</button>
+          </form>
       </section>
     </main>
     <footer></footer>

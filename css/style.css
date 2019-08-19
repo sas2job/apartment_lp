@@ -71,9 +71,13 @@ nav li a:hover {
   font-size: 20px;
   font-weight: bold;
 }
-.order_call {
+.order_call a {
   color: #f7941d;
   cursor: pointer;
+  text-decoration: none;
+}
+.order_call a {
+  border-bottom: 1px dashed #f7941d;
 }
 .second .section_container {
   padding: 60px 0;
@@ -159,6 +163,46 @@ nav li a:hover {
   max-width: 250px;
   text-align: center;
 }
+.fifth {
+  background-color: #93645c;
+}
+.fifth .section_container {
+  padding-bottom: 50px;
+}
+.fifth .title {
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
+}
+.fifth .title {
+  padding: 50px 0;
+  text-align: center;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+.contact-form__input {
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 1em;
+}
+input::placeholder {
+  color: #909595;
+  padding-left: 1em;
+  font-size: 14px;
+}
+button.contact-form__button {
+  border-radius: 10px;
+  background-color: #f7941d;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 10px;
+}
+button.contact-form__button:first-letter {
+  text-transform: uppercase;
+}
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
   .slogan {
