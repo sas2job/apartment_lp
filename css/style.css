@@ -95,7 +95,7 @@ nav li a:hover {
   display: flex;
   justify-content: space-between;
   height: 730px;
-  background: url(../images/fon2.jpg);
+  background: url(../images/fon22.jpg);
   background-size: cover;
   background-position: 0% 0%;
   background-repeat: no-repeat;
@@ -103,7 +103,7 @@ nav li a:hover {
 }
 .third .section_container {
   padding: 7em 0;
-  margin-left: 10em;
+  margin-left: 20em;
 }
 .third .title {
   font-weight: 200;
@@ -248,7 +248,10 @@ footer .phone_number {
     margin-right: 3em;
   }
   .third {
-    background-position: 25% 0%;
+    background-position: 40% 0%;
+  }
+  .third .section_container {
+    margin-left: 3em;
   }
 }
 
@@ -264,7 +267,7 @@ footer .phone_number {
     flex-direction: column;
   }
   .third {
-    background-position: 25% 0%;
+    background-position: 45% 0%;
   }
   .third .title {
     margin-bottom: 3em;
@@ -286,27 +289,28 @@ footer .phone_number {
     flex-direction: column;
     align-items: center;
   }
-  .contact-form__input-wrapper{
+  .contact-form__input-wrapper {
     padding-bottom: 1em;
   }
-  .button.contact-form__button{
+  button.contact-form__button {
     padding: 10px 10px;
   }
   footer {
     flex-direction: column;
     align-items: center;
   }
-  footer .title{
+  footer .title {
     padding-bottom: 1em;
   }
-  footer .policy{
+  footer .policy {
     margin-bottom: 2em;
   }
   footer .phone {
     margin-bottom: 0;
-}
-.order_call a {
-  border-bottom: 1px dashed #f7941d;
+  }
+  .order_call a {
+    border-bottom: 1px dashed #f7941d;
+  }
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
@@ -314,24 +318,35 @@ footer .phone_number {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+  .first .section_container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
   .slogan {
-    margin-left: 1em;
+    margin: 0 auto;
+    padding-bottom: 1em;
   }
   .phone {
-    margin-right: 3em;
+    margin: 0 auto;
   }
   .second .photos {
     flex-direction: column;
   }
   .third {
-    background-position: 25% 0%;
+    background-image: none;
+    background-color: #ebefee;
+    height: auto;
   }
   .third .title {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
   }
   .third .section_container {
-    padding: 7em 0;
+    padding: 15px 0;
     text-align: center;
+    margin: 0 auto;
+  }
+  .advantage_item {
+    margin: 0 auto;
   }
   .fourth .howbuy {
     flex-direction: column;
@@ -343,27 +358,30 @@ footer .phone_number {
     flex-direction: column;
     align-items: center;
   }
-  .contact-form__input-wrapper{
+  .contact-form__input-wrapper {
     padding-bottom: 1em;
   }
-  .button.contact-form__button{
+  .contact-form__input {
+    margin-right: 0;
+  }
+  button.contact-form__button {
     padding: 10px 10px;
   }
   footer {
     flex-direction: column;
     align-items: center;
   }
-  footer .title{
+  footer .title {
     padding-bottom: 1em;
   }
-  footer .policy{
+  footer .policy {
     margin-bottom: 2em;
   }
   footer .phone {
     margin-bottom: 0;
   }
   .order_call a {
-  border-bottom: 1px dashed #f7941d;
+    border-bottom: 1px dashed #f7941d;
   }
 }
 
