@@ -97,13 +97,17 @@ nav li a:hover {
   height: 730px;
   background: url(../images/fon22.jpg);
   background-size: cover;
-  background-position: 0% 0%;
+  background-position: 40% 0%;
   background-repeat: no-repeat;
   background-color: #fcfcfc;
 }
+.container .third {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .third .section_container {
   padding: 7em 0;
-  margin-left: 20em;
+  margin-left: 10em;
 }
 .third .title {
   font-weight: 200;
@@ -235,7 +239,7 @@ footer .phone_number {
     margin-right: 3em;
   }
   .third {
-    background-position: 0% 0%;
+    background-position: 40% 0%;
   }
 }
 
