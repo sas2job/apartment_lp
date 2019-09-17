@@ -29,6 +29,7 @@ nav li {
 }
 nav li:hover {
   background-color: #b7a583;
+  transition: all ease 0.3s;
 }
 
 nav li a {
@@ -36,8 +37,9 @@ nav li a {
   text-decoration: none;
 }
 nav li a:hover {
-  color: #6c7373;
+  color: #fff;
   padding-bottom: 5px;
+  transition: all ease 0.3s;
 }
 .main {
   max-width: 1200px;
@@ -46,8 +48,8 @@ nav li a:hover {
   display: flex;
   justify-content: space-between;
   height: 750px;
-  background: url(../images/fon1.jpg) 100% 100% no-repeat;
-  background-size: cover;
+  /* background: url(../images/fon1.jpg) 100% 100% no-repeat; */
+  /* background-size: cover; */
 }
 .first .section_container {
   width: 1000px;
@@ -75,9 +77,12 @@ nav li a:hover {
   color: #f7941d;
   cursor: pointer;
   text-decoration: none;
+  border-bottom: 2px dashed #f7941d;
 }
-.order_call a {
-  border-bottom: 1px dashed #f7941d;
+.order_call a:hover{
+  color: #db841b;
+  transition: all ease .3s;
+  border-bottom: 1px dashed #db841b;
 }
 .second .section_container {
   padding: 60px 0;
